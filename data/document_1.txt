@@ -1,0 +1,24 @@
+What's Azure AI Search?
+05/15/2025
+Azure AI Search (formerly known as "Azure Cognitive Search") is an enterprise-ready information retrieval system for your heterogeneous content that you ingest into a search index, and surface to users through queries and apps. It comes with a comprehensive set of advanced search technologies, built for high-performance applications at any scale.
+
+Azure AI Search is the recommended retrieval system for building agent-to-agent (A2A) and RAG-based applications on Azure, with native LLM integrations between Azure OpenAI in Azure AI Foundry Models and Azure Machine Learning, with mechanisms for integrating third-party and open-source models and processes.
+
+Azure AI Search can be used in both traditional and generative search scenarios. Common use cases include catalog or document search, information discovery (data exploration), and retrieval-augmented generation (RAG) for conversational search.
+
+When you create a search service, you work with the following capabilities:
+
+A search engine for vector search and full text and hybrid search over a search index.
+Rich indexing with the ability to content transformation. This includes integrated data chunking and vectorization for RAG, lexical analysis for text, and optional applied AI for content extraction and enrichment.
+Rich query syntax for vector queries, text search, hybrid queries, fuzzy search, autocomplete, geo-search and others.
+Relevance and query performance tuning with semantic ranking, scoring profiles, quantization for vector queries, and parameters for controlling query behaviors at runtime.
+Azure scale, security, and reach.
+Azure integration at the data layer, machine learning layer, Azure AI services and Azure OpenAI.
+
+Architecturally, a search service sits between the external data stores that contain your un-indexed data, and your client app that sends query requests to a search index and handles the response.
+
+Azure AI Search architecture
+
+In your client app, the search experience is defined using APIs from Azure AI Search, and can include relevance tuning, semantic ranking, autocomplete, synonym matching, fuzzy matching, pattern matching, filter, and sort.
+
+Across the Azure platform, Azure AI Search can integrate with other Azure services in the form of indexers that automate data ingestion/retrieval from Azure data sources, and skillsets that incorporate consumable AI from Azure AI services, such as image and natural language processing, or custom AI that you create in Azure Machine Learning or wrap inside Azure Functions.
