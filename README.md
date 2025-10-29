@@ -54,3 +54,4 @@ Create .env.search file with following values
 5. python sdk references https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.searchclient?view=azure-python 
 6. python sdk references https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.searchindexclient?view=azure-python
 7. Index management https://learn.microsoft.com/en-us/azure/search/search-how-to-manage-index?tabs=list-python%2Cstats-python%2Cdefinition-python%2Cdelete-python&pivots=azure-sdks 
+8. Search Client https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.searchclient?view=azure-python
