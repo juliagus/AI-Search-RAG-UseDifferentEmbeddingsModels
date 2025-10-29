@@ -10,6 +10,7 @@ Use folder "use_sdk" for that. Sample data is provided in "data" folder, note th
 | :--- | ---: |
 | embeddings.py | File creates embedding for the text fragment, leverages openai sdk.|
 | prep_data.py | File reads the provided txt files, generates embeddings, return a collection of processed documents to be pushed to Azure AI Search.|
+| index_mgmt.py | Index management operations: list all indexes, get stats for specific index, delete index.|
 | push_strategy_sdk.py | Create index using sdk, push prepared data into index. Examples of vector and hybrid queries.|
 
 For the embeddings generation you can use models from Azure AI Foundry (ex. text-embedding-3-small) or deployed on GPU (BAAI/bge-m3) or others. 
@@ -52,3 +53,4 @@ Create .env.search file with following values
 4. Collection of examples https://github.com/Azure-Samples/azure-search-python-samples/blob/main/Quickstart-Vector-Search/vector-search-quickstart.ipynb
 5. python sdk references https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.searchclient?view=azure-python 
 6. python sdk references https://learn.microsoft.com/en-us/python/api/azure-search-documents/azure.search.documents.indexes.searchindexclient?view=azure-python
+7. Index management https://learn.microsoft.com/en-us/azure/search/search-how-to-manage-index?tabs=list-python%2Cstats-python%2Cdefinition-python%2Cdelete-python&pivots=azure-sdks 
